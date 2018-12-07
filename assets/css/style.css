@@ -1,0 +1,194 @@
+.myNameBackground {
+    background-color: #360b22;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 10px;
+}
+.myName {
+    color:rgb(206, 184, 130);
+    padding-left: 10px;
+    background-color: #662d33;
+    width: 220px;
+    float: left;
+    position: relative;
+    left: 170px;
+    top: -15px;
+}
+
+.navBar {
+    float: right;
+    background-color: #662d33;
+    color: rgb(206, 184, 130);
+    position: absolute;
+    right: 150px;
+    top: 15px;
+    z-index: 30;
+}
+
+#about:hover {
+    background-color: #360b22;
+  color: white;
+}
+
+#contact2:hover {
+    background-color: #360b22;
+  color: white;
+}
+
+#portfolio1:hover {
+    background-color: #360b22;
+  color: white;
+}
+
+#aboutMeHeader {
+    clear: both;
+    color: rgb(206, 184, 130);
+    border-bottom: 3px solid #662d33;
+}
+
+.content {
+    background-color: #360b22;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: rgb(206, 184, 130);
+    border: rgb(206, 184, 130) solid 10px;
+    padding: 10px 60px 20px 60px;
+    margin: 60px 150px 50px 150px;
+    filter: drop-shadow(35px 25px 15px #360b22);
+}
+
+.contactHeader {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-top: 50px;
+    margin-right: 155px;
+    margin-bottom: 100px;
+    margin-left: 155px;
+    padding: 14px;
+    color: rgb(206, 184, 130);
+    border: rgb(206, 184, 130) solid 10px;
+    background-color: #360b22;
+    position: relative;
+    left: 14px;
+    filter: drop-shadow(35px 25px 15px #360b22);
+}
+
+input {
+    width: 97%;
+    margin-top: 2px;
+    padding: 7px 10px;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 97.5%;
+    padding: 7px 10px;
+    border-radius: 4px;
+}
+
+#contact {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    border-bottom: 3px solid rgb(206, 184, 130);
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    position: relative;
+    left: 0px;
+    top: -10px;
+}
+
+#submit {
+    width: 10%;
+    background-color: rgb(206, 184, 130);
+    border-radius: 4px;
+}
+
+#submit:hover {
+    background-color:lightblue;
+  color: white;
+
+}
+.portfolioHeader {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin-top: 50px;
+    margin-right: 155px;
+    margin-bottom: 100px;
+    margin-left: 155px;
+    color: rgb(206, 184, 130);
+    border: rgb(206, 184, 130) solid 10px;
+    background-color: #360b22;
+    position: relative;
+    left: 14px;
+    filter: drop-shadow(35px 25px 15px #360b22);
+}
+
+#portfolio {
+    border-bottom: 3px solid rgb(206, 184, 130);
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    position: relative;
+    left: 0px;
+    top: -10px;
+}
+
+#SafeHike {
+    margin-left: 30px;
+    margin-right: 25px;
+    position: relative;
+}
+
+#SafeRoads {
+    margin-right: 20px;
+    position: relative;
+}
+
+
+#NewsMap {
+    margin-left: 8px;
+    position: relative;
+}
+
+#HappyHour {
+    margin-top: 27px;
+    margin-left: 30px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+
+#WineCatalog {
+    margin-top: 27px;
+    margin-left: 1px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .wrapper {
+    min-height: 100%;
+  
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+  }
+  .footer,
+  .push {
+    height: 50px;
+  }
+
+  /* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { }
